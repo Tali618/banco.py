@@ -3,5 +3,7 @@ class Conta:
      def_init_(self,titular,saldo,senha):
 
 #CRIAR METODO DE SAQUE
+     def sacar(self, valor,senha):
+        if self.saldo >= valor:
 #CRIAR METODO DE DEPOSITO
 #CRIAR METODO VER SALDO
